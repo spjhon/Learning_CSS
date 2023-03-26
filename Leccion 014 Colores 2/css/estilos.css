@@ -1,0 +1,51 @@
+*{
+    background-color: dimgray;
+}
+
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+.caja{
+    padding: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 10px;
+    float: left;
+}
+
+.rojo{
+    background-color: crimson;
+}
+
+.rosa{
+    background-color: deeppink;
+}
+
+.rgb{
+    background-color: rgb(131, 56, 236);
+}
+
+.rgba{
+    background-color: rgba(131, 56, 236, .5);
+}
+
+.hexa{
+    /* los hexa se pueden simplificar por ejemplo #fff en lugar de #ffffff*/
+    background-color: #0091ad;
+}
+
+.hexa_transparencia{
+    /* el cuarto par de colores es la transparencia y se mide en porcentaje*/
+    background-color: #0091ad88;
+}
+
+.color_por_hls{
+    /* hsl es hue saturation lightness o algo asi y tambine se le puede aplicar transparencia
+    agregandole el canal alfa asi como el cuarto par de letras de el hexadecimal*/
+    background-color: hsl(190, 100%, 34%);
+}

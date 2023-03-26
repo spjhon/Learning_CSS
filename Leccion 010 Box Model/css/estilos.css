@@ -1,0 +1,29 @@
+*{
+    /* de esta forma se elimina el margen y el padding que viene por defecto*/
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+div{
+    padding: 10px 50px 15px 50px;
+    border: 15px solid #457b9d;
+    margin: 20px;
+    background-color: #f1faee;
+    width: 300px;
+    outline: 10px solid #a8dadc;
+    /* Este offset es para separar el borde del outline, OJO con el outline ya que
+    se sobrepone sobre los demas*/
+    outline-offset: 10px;
+    /* si hay desorden en los pixeles utilizados en todos los elementos entonces
+    se puede utilizar la propiedad de box-seizing*/
+    /* de esta forma hay como una especie de bloqueo*/
+    box-sizing: border-box;
+    /* Con la propiedad de max-withd la idea es darle un tamano para que no aparezca la barra
+    de scroll y dejar la pantalla hasta cierto tamano*/
+    max-width: 300px; /*tambien se puede colocar en porcentaje*/
+}

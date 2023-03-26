@@ -1,0 +1,24 @@
+/* Con la # se pueden tener bloques de estilos para implantarlos a dedo
+OJO: este selector NO es una CLASE asi que solo se puede aplicar UNA SOLA VEZ
+por HTML*/
+
+
+/* Este es un SELECTOR UNIVERSAL*/
+*{
+    background-color: ghostwhite;
+    color: cornflowerblue;
+}
+
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+
+/* Con un punto se delcaran las clases para se utilizadas mas de una vez*/
+.centrar{
+    text-align: center;
+}
+
+.texto_grande{
+    font-size: 20px;
+}

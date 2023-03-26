@@ -1,0 +1,31 @@
+h1{
+    color: #ef476f;
+    background-color: beige;
+    text-align: center;
+    text-transform: lowercase;
+    /*la sombra va a estar a 2px de la letra, luego el eje y y luego*/
+    text-shadow: 2px 2px 2px #ced4da;
+    /* se pueden poner espaciados negativos tambien*/
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-decoration: overline underline;
+}
+
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+
+.texto{
+    text-align: justify;
+    /*direction: ltr;*/
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 2;
+    /*white-space: nowrap;*/
+    text-shadow: 1px 1px 1px #ced4da;
+}

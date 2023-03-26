@@ -1,0 +1,4 @@
+h1{
+    /* Con el important se sobre-escribe cascada abajo y gana en jerarquita*/
+    color:aqua !important;
+}

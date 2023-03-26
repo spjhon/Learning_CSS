@@ -1,0 +1,16 @@
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url(/Leccion\ 015\ Manejo\ de\ Fondos/img/bg-transparente-css.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*Con el attachment se puede dejar una imagen de fondo fija*/
+    background-attachment: fixed;
+    /* Estas propiedades excepto el attachment se puden definir en una sola linea*/
+    
+}
+
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}

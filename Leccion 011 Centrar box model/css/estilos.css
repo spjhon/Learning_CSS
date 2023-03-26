@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+div{
+    
+    padding: 50px;
+    border: 10px solid #457b9d;
+    /*con auto se va a centrar ya que toma por lados iguales*/
+    margin: 100px;
+    background-color: #f1faee;
+    width: 300px;
+   
+}
+
+p.interno{
+    margin: inherit;
+}

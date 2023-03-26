@@ -1,0 +1,34 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color:cornflowerblue;
+    padding: 10px;
+    display: block;
+}
+
+/* las jeraquias se sobreescriben*/
+
+/* h1{
+    display:none;
+} */
+
+/* p{
+    visibility: hidden;
+} */
+
+/* la diferencia entre display y visibility es que en display lo quita del todo
+mientras que en visibility solo esta oculto pero el espacio sigue ocupado*/
+
+span{
+    display: inline;
+    border: 1px solid;
+}
+
+a{
+    display: block;
+    text-align: left;
+}
+
+li{
+    display: inline;
+}

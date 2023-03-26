@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-shadow: -2px;
+    text-shadow: 2px 2px 3px #a8dadc; /* aqui observamos que primero va el eje x y luego el eje y el otro o tercer valor es el blur*/
+    color: #e63946;
+
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: 15px auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 3px gray;
+    color: #457b9d;
+    border-radius: 15px;
+}
+
+div.cabecero{
+    background-color: #4cc9f0;
+}
+
+div.texto{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px 5px rgb(177,177,177);
+}
+

@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div{
+    width: 50%; /* con el witdh se puede colocar en porcentaje o pixeles, en porcentaje se acomoda de manera automatica*/
+    border: 3px solid firebrick;
+    margin: auto;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    
+}
+
+/* OJO TIPOS DE POSICIONAMIENTO
+
+STATIC: Es el default en elementos como los div
+RELATIVA: Dependiendo de la poscion se va a mover de manera relativa a los valores que se dictaron, osea que de su posicion original se le agregan los top y los bottom
+FIXED: O ajustado, se coloca de manejra relativa al viewport osea a TODA LA PANTALLA por eso se le die fixed y le importa un bledo el resto y a medida que se mueve la pantalla el que queda fixed NO SE MUEVE
+ABSOLUTE: Ahora la absoluta lo que hace es quedar fijo en un lugar y no importa si la pantalla se mueve este no se mueva, generalemnte se trabaja cuando esta dentro de otro div
+STICKY: que se pegue en la parte de arriba o abajo de la pantalla y no se pierda
+*/

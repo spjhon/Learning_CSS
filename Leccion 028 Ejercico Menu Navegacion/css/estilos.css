@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: #457b9d;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+
+span{
+    font-weight: bolder;
+    font-size: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border:1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+    /* esto se hace para que el span se le pueda modificar padding y margin y al mismo timepo
+    inline, por eso inline block*/
+}
+
+.menu{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63946;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #f1fabd;
+}

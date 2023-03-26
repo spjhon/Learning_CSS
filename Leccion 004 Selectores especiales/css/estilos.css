@@ -1,0 +1,8 @@
+/* Este selector lo que hace es decirle que
+a todos los parrafos que tengan la clase centrar se les aplica
+las propiedades de resto a los otros parrafos no se toca*/
+
+p.centrar{
+    text-align: center;
+
+}

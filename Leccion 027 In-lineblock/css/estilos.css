@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: #457b9d;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+
+span{
+    font-weight: bolder;
+    font-size: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border:1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+    /* esto se hace para que el span se le pueda modificar padding y margin y al mismo timepo
+    inline, por eso inline block*/
+}

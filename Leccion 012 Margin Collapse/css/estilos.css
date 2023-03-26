@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+.caja{
+    
+    padding: 10px;
+    border: 10px solid #457b9d;
+    /*con auto se va a centrar ya que toma por lados iguales*/
+    /* OJO EL BORDER COLLAPSE ES QUE SE MEZCLAN LOS BORDES CUANDO EN LA
+    MISMA PROPIEDAD SE LE DA UN SOLO MARGEN, solo margenes superiores e inferiores*/
+    margin: 30px;
+    background-color: #f1faee;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.caja2{
+    
+    padding: 10px;
+    border: 10px solid #457b9d;
+    margin: 10px;
+    background-color: #f1faee;
+    width: 300px;
+    box-sizing: border-box;
+}

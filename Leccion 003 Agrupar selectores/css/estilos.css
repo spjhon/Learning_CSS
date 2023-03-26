@@ -1,0 +1,10 @@
+/* Con la # se pueden tener bloques de estilos para implantarlos a dedo
+OJO: este selector NO es una CLASE asi que solo se puede aplicar UNA SOLA VEZ
+por HTML*/
+
+
+h1, h2, p{
+    color: crimson;
+    text-align: center;
+    
+}
