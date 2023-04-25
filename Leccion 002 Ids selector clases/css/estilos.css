@@ -9,6 +9,23 @@ por HTML*/
     color: cornflowerblue;
 }
 
+
+/*TYPE SELECTOR, cuando se busca por tipo (ojo afecta a todos los que sean de este tipo)
+div {
+  color: white;
+}*/
+
+/*CLASS SELECTOR
+<!-- index.html -->
+<div class="alert-text">
+  Please agree to our terms of service.
+</div>
+
+<!--styles.css-->
+.alert-text {
+    color: red;
+  }*/
+
 #titulo{
     color: crimson;
     text-align: center;
