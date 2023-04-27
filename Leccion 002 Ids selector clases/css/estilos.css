@@ -2,6 +2,10 @@
 OJO: este selector NO es una CLASE asi que solo se puede aplicar UNA SOLA VEZ
 por HTML*/
 
+#titulo{
+    color: crimson;
+    text-align: center;
+}
 
 /* Este es un SELECTOR UNIVERSAL*/
 *{
@@ -9,11 +13,14 @@ por HTML*/
     color: cornflowerblue;
 }
 
+/*---------------------------------------------------------------------------------------------------------------------------------*/
 
 /*TYPE SELECTOR, cuando se busca por tipo (ojo afecta a todos los que sean de este tipo)
 div {
   color: white;
 }*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
 
 /*CLASS SELECTOR
 <!-- index.html -->
@@ -26,10 +33,55 @@ div {
     color: red;
   }*/
 
-#titulo{
-    color: crimson;
-    text-align: center;
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*IDSelectors NO UTILIZARLOS TAN SEGUIDOS, SOLO CUANDO SEA IMPRESINDIBLE, OJO LOS IDS NO SE PUEDEN REPETIR EN UNA PAGINA
+<!-- index.html -->
+<div id="title">My Awesome 90's Page</div>
+<!--styles.css-->
+#title {
+    background-color: red;
+  }*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/* GROOPING SELECTORS
+Cuando se agrupa es para que los atributos se apliquen a ambas clases y luego cada clase tiene
+sus propios atributos
+.read,
+.unread {
+  color: white;
+  background-color: black;
 }
+
+.read {
+  several unique declarations
+}
+
+.unread {
+  several unique declarations
+}*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/* CHAINING SELECTORS
+Cuando se encadenan es para que se aplique el mismo atributo a varias clases
+.subsection.header {
+  color: red;
+}
+
+.subsection#preview {
+  color: blue;
+}*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*DESCENDANT COMBINATOR
+La clase que se aplica a un padre pasa a los hijos
+En este ejemplo gana el color beige en el p ya que es por especifidad (ir a CSS in deep for more info)
+*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Con un punto se delcaran las clases para se utilizadas mas de una vez*/
 .centrar{
